@@ -53,14 +53,14 @@ export function createGallery(images) {
   lightbox.refresh();
 };
 
-export clearGallery(
+export function clearGallery(
     galleryEl.innerHTML = '';
 );
 
-export showLoader(
+export function showLoader(
     loaderEl.classList.add('is-visible');
 );
 
-export hideLoader(
+export function hideLoader(
     loaderEl.classList.remove('is-visible');
 );
